@@ -12,7 +12,7 @@
 	<groupId>com.cognizant.mfpe.pensionManagementSystem</groupId>
 	<artifactId>pensionerDetail</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>pensionerDetail</name>
 	<description>MFPE Pod 1 Pension Management System</description>
 	<properties>
@@ -95,6 +95,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>pensioner-detail-service</finalName>
 	</build>
 
 </project>
