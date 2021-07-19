@@ -10,7 +10,7 @@ import com.pms.pensionerDetail.model.AuthResponse;
  * To access Authorization microservice
  * 
  */
-@FeignClient(name = "authorization-service", url = "http://localhost:9095")
+@FeignClient(name = "authorization-service", url = "http://pmsauthservice-env.eba-2fp2sbyw.ap-south-1.elasticbeanstalk.com")
 public interface AuthClient {
 
 	@GetMapping("/validate")
